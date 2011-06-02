@@ -60,10 +60,6 @@ GEM
     arel (2.1.1)
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
-    coffee-script (2.2.0)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.1.1)
     erubis (2.7.0)
     execjs (1.0.0)
       multi_json (~> 1.0)
@@ -131,7 +127,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-script
   devise!
   forem!
   forem-theme-base!

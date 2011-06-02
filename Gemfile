@@ -13,7 +13,7 @@ gem 'sqlite3'
 
 # Asset template engines
 gem 'sass'
-gem 'coffee-script'
+# gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
