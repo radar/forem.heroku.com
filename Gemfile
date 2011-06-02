@@ -14,7 +14,7 @@ gem 'sqlite3'
 # Asset template engines
 gem 'sass'
 # gem 'coffee-script'
-gem 'uglifier'
+# gem 'uglifier'
 
 gem 'jquery-rails'
 
@@ -29,5 +29,5 @@ gem 'jquery-rails'
 
 group :test do
   # Pretty printed test output
-  gem 'turn', :require => false
+  # gem 'turn', :require => false
 end
