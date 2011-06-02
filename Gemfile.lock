@@ -8,16 +8,18 @@ GIT
       orm_adapter (~> 0.0.3)
       warden (~> 1.0.3)
 
-PATH
-  remote: ~/Sites/side_projects/forem
+GIT
+  remote: git://github.com/radar/forem
+  revision: c1ef0fa44083c35b3dd5cc2eab5b30e3b1a24612
   specs:
     forem (0.1)
       kaminari
       rdiscount
       simple_form
 
-PATH
-  remote: ~/Sites/side_projects/forem-theme-base
+GIT
+  remote: git://github.com/radar/forem-theme-base
+  revision: 410bd1215229fb3703cb0faeae9c6407295cf1ad
   specs:
     forem-theme-base (0.0.1)
 
