@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forums</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= forem_theme_tag if respond_to?(:forem_theme_tag) %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>
+    <%= link_to "Sign out", '/users/sign_out' %>
+  <% else %>
+    <%= link_to "Sign up", '/users/sign_up' %>
+    <%= link_to "Sign in", '/users/sign_in' %>
+  <% end %>
+
+<%= yield %>
+
+</body>
+</html>
