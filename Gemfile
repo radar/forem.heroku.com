@@ -16,6 +16,7 @@ group :development do
 end
 
 gem 'sass'
+gem 'uglifier'
 
 gem 'jquery-rails'
 
