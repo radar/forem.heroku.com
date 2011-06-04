@@ -10,16 +10,15 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem
-  revision: 66bc030b431ab1245b589d3b2007060f77e13a9c
+  revision: 530c1c7477a1a6d27dd430a3dbd0967d6466c0c4
   specs:
     forem (0.1)
       kaminari
       rdiscount
       simple_form
 
-GIT
-  remote: git://github.com/radar/forem-theme-base
-  revision: 410bd1215229fb3703cb0faeae9c6407295cf1ad
+PATH
+  remote: ~/Sites/side_projects/forem-theme-base
   specs:
     forem-theme-base (0.0.1)
 
@@ -61,7 +60,7 @@ GEM
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
     erubis (2.7.0)
-    execjs (1.0.0)
+    execjs (1.1.0)
       multi_json (~> 1.0)
     hike (1.0.0)
     i18n (0.6.0)
@@ -104,7 +103,7 @@ GEM
       thor (~> 0.14.6)
     rake (0.8.7)
     rdiscount (1.6.8)
-    sass (3.1.1)
+    sass (3.1.2)
     simple_form (1.4.0)
     sprockets (2.0.0.beta.9)
       hike (~> 1.0)
