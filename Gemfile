@@ -7,6 +7,7 @@ gem 'rails', '3.1.0.rc1'
 
 gem 'rake', '0.8.7'
 
+# gem 'forem', :path => "~/Sites/side_projects/forem"
 gem 'forem', :git => "git://github.com/radar/forem"
 # gem 'forem-theme-base', :path => "~/Sites/side_projects/forem-theme-base"
 gem 'forem-theme-base', :git => "git://github.com/radar/forem-theme-base"
