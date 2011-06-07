@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem
-  revision: 0c80082f7a1fb04360584938f1d2771fff909669
+  revision: 19f487478c5623626a21ac4d6605cd994bb33c0c
   specs:
     forem (0.1)
       kaminari
@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem-theme-base
-  revision: b023a7b7eea6fa20d4698f7a71eefac0fd2a5805
+  revision: 1341e133f0768e0c345f6d2c1b4832c38a7d0828
   specs:
     forem-theme-base (0.0.1)
 
@@ -106,7 +106,7 @@ GEM
     rdiscount (1.6.8)
     sass (3.1.2)
     simple_form (1.4.0)
-    sprockets (2.0.0.beta.9)
+    sprockets (2.0.0.beta.10)
       hike (~> 1.0)
       rack (~> 1.0)
       tilt (!= 1.3.0, ~> 1.1)
