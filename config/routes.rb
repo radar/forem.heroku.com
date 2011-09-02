@@ -4,6 +4,8 @@ Forums::Application.routes.draw do
   match '/users/sign_in', :to => "devise/sessions#new", :as => "sign_in"
 
   mount Forem::Engine => "/", :as => "root"
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
