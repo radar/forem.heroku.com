@@ -18,8 +18,10 @@ end
 gem 'jquery-rails'
 gem 'dragonfly', '0.9.5'
 
-gem 'ruby-debug19', :require => 'ruby-debug'
-gem 'ruby-prof'
+group :development do
+  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'ruby-prof'
+end
 
 group :test do
   # Pretty printed test output
