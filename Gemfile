@@ -4,9 +4,13 @@ gem 'rails', '3.1.0'
 
 gem 'will_paginate'
 gem 'devise'
-gem 'forem', :git => "git://github.com/radar/forem.git"
-gem 'forem-theme-orange', :git => "git://github.com/radar/forem-theme-orange"
-
+if ENV['USE_LOCAL_FOREM']
+  gem 'forem', :path => "~/Sites/side_projects/forem" 
+else
+  gem 'forem', :git => "git://github.com/radar/forem.git"
+end
+# gem 'forem-theme-orange', :git => "git://github.com/radar/forem-theme-orange"
+gem 'forem-theme-twist', :path => "~/Sites/side_projects/forem-theme-twist"
 
 group :assets do
   gem 'sass-rails', " ~> 3.1.0"

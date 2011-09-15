@@ -8,6 +8,9 @@
 </head>
 <body>
   <h1><%= link_to "Forem Demo Site", root_path %></h1>
+  <% flash.each do |k,v| %>
+    <div class='flash flash_<%= k %>'><%= v %></div>
+  <% end %>
   <% if user_signed_in? %>
     Signed in as <%= current_user.email %>
     <%= link_to "Sign out", '/users/sign_out' %>

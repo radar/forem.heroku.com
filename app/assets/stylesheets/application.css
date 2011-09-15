@@ -4,6 +4,23 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
- *= require "forem/orange/style"
+ *= require "forem/twist/style"
 */
 
+.flash_notice {
+  background: #50AE00;
+  color: #efefef;
+}
+
+.flash_alert {
+  background: #AE0F00;
+  color: #efefef;
+}
+
+.flash {
+  padding: .3em;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 1em;
+  -webkit-border-radius: .2em;
+}
