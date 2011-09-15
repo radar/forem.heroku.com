@@ -1,16 +1,18 @@
-PATH
-  remote: ~/Sites/side_projects/forem
+GIT
+  remote: git://github.com/radar/forem-theme-twist
+  revision: 9bf59cd7a5f8e3a55a229654bf5c94438561d29c
+  specs:
+    forem-theme-twist (0.0.1)
+
+GIT
+  remote: git://github.com/radar/forem.git
+  revision: 945e2b4aa65761fe88a2545bc93fa3a1de6a5a50
   specs:
     forem (0.1)
       kaminari
       rails (= 3.1.0)
       redcarpet (>= 2.0.0b4)
       simple_form
-
-PATH
-  remote: ~/Sites/side_projects/forem-theme-twist
-  specs:
-    forem-theme-twist (0.0.1)
 
 GEM
   remote: http://rubygems.org/
