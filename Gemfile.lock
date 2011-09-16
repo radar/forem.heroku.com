@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: a1ea6176fe65c14dcd54444c4d4b19d9caeae361
+  revision: 5ebceb55754fcad880332b2852f5c11c55329ec3
   specs:
     forem (0.1)
       kaminari
@@ -129,7 +129,7 @@ GEM
       actionpack (~> 3.1.0)
       railties (~> 3.1.0)
       sass (>= 3.1.4)
-    simple_form (1.5.0)
+    simple_form (1.5.1)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
     sprockets (2.0.0)
