@@ -6,10 +6,11 @@ gem 'will_paginate'
 gem 'devise'
 if ENV['USE_LOCAL_FOREM']
   gem 'forem', :path => "~/Sites/side_projects/forem" 
+  gem 'forem-theme-twist', :path => "~/Sites/side_projects/forem-theme-twist"
 else
   gem 'forem', :git => "git://github.com/radar/forem.git"
+  gem 'forem-theme-twist', :git => "git://github.com/radar/forem-theme-twist"
 end
-gem 'forem-theme-twist', :git => "git://github.com/radar/forem-theme-twist"
 
 group :assets do
   gem 'sass-rails', " ~> 3.1.0"
