@@ -12,7 +12,7 @@
   color: #efefef;
 }
 
-.flash_alert {
+.flash_alert, .flash_error {
   background: #AE0F00;
   color: #efefef;
 }
