@@ -6,11 +6,13 @@ gem 'rails', '3.1.1'#, :path => "vendor/rails"
 gem 'will_paginate'
 gem 'devise'
 if ENV['USE_LOCAL_FOREM']
-  gem 'forem', :path => "~/Sites/side_projects/forem" 
+  gem 'forem', :path => "~/Sites/side_projects/forem"
   gem 'forem-theme-twist', :path => "~/Sites/side_projects/forem-theme-twist"
+  gem 'forem-rdiscount', :path => "~/Sites/side_projects/forem-rdiscount"
 else
   gem 'forem', :git => "git://github.com/radar/forem.git"
   gem 'forem-theme-twist', :git => "git://github.com/radar/forem-theme-twist"
+  gem 'forem-rdiscount', :git => "git://github.com/radar/forem-rdiscount"
 end
 
 group :assets do

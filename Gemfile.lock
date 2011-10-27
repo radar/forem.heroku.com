@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/radar/forem-rdiscount
+  revision: fb0a37e19d0099665f97da58897c107f405646c4
+  specs:
+    forem-rdiscount (1.0.0)
+      rdiscount
+
+GIT
   remote: git://github.com/radar/forem-theme-twist
   revision: b75b5861d577ef4333fbe4056fd8832d4759f31f
   specs:
@@ -110,6 +117,7 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.6)
     rake (0.9.2.2)
+    rdiscount (1.6.8)
     rdoc (3.11)
       json (~> 1.4)
     ruby-debug-base19 (0.11.25)
@@ -159,6 +167,7 @@ DEPENDENCIES
   devise
   dragonfly (= 0.9.5)
   forem!
+  forem-rdiscount!
   forem-theme-twist!
   jquery-rails
   json
