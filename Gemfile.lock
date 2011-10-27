@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/radar/forem-rdiscount
-  revision: fb0a37e19d0099665f97da58897c107f405646c4
+  revision: 34bea6a651cb0e28ae30d699b26062da4fd75f7f
   specs:
     forem-rdiscount (1.0.0)
       rdiscount
