@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: 5787815a8a6945f0bb165614ff18bdbc9e84e051
+  revision: 27ed9027423131a9860a664a60cf7dae2fedfb40
   specs:
     forem (0.1)
       kaminari
