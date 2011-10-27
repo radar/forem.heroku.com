@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.1.1'#, :path => "vendor/rails"
+# gem 'assets', :path => "~/Sites/side_projects/assets"
 
 gem 'will_paginate'
 gem 'devise'
@@ -35,3 +36,5 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'json'
