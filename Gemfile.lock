@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: 27ed9027423131a9860a664a60cf7dae2fedfb40
+  revision: d4b82629ea59c86a16ec831d3b98e0bd40391b3e
   specs:
     forem (0.1)
       kaminari
@@ -62,10 +62,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.2)
-    devise (1.4.9)
+    devise (1.5.1)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
-      warden (~> 1.0.3)
+      warden (~> 1.1)
     dragonfly (0.9.5)
       rack
     erubis (2.7.0)
@@ -87,7 +87,7 @@ GEM
     multi_json (1.0.3)
     orm_adapter (0.0.5)
     pg (0.11.0)
-    polyglot (0.3.2)
+    polyglot (0.3.3)
     rack (1.3.5)
     rack-cache (1.1)
       rack (>= 0.4)
@@ -137,11 +137,11 @@ GEM
       polyglot (>= 0.3.1)
     turn (0.8.2)
       ansi (>= 1.2.2)
-    tzinfo (0.3.30)
+    tzinfo (0.3.31)
     uglifier (0.5.4)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
-    warden (1.0.6)
+    warden (1.1.0)
       rack (>= 1.0)
     will_paginate (3.0.0)
 
