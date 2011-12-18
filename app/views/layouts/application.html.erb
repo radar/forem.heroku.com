@@ -8,6 +8,12 @@
 </head>
 <body>
   <h1><%= link_to "Forem Demo Site", root_path %></h1>
+  <div id='warning'>
+    This is a Forem demo site. The demo's data can and will be wiped without notice.<br><br>
+
+    If you'd like to discuss feature requests or file a bug, <a href='http://github.com/radar/forem/issues'>please do so on the GitHub Issues page</a>.
+  </div>
+  <br>
   <% flash.each do |k,v| %>
     <div class='flash flash_<%= k %>'><%= v %></div>
   <% end %>

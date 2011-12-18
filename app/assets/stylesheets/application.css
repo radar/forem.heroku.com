@@ -24,3 +24,17 @@
   margin-bottom: 1em;
   -webkit-border-radius: .2em;
 }
+
+
+#warning {
+  background: #bcbcbc;
+  font-size: 90%;
+  color: #222;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#warning a {
+  font-weight: bold;
+}
