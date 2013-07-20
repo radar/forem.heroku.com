@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: 2e051fbe45dae301c4d2f357b294e0a81e0e0d28
+  revision: 471059fb8585138986a2e0dc7a970042b5ec4d86
   branch: rails4
   specs:
     forem (1.0.0.beta1)
@@ -112,6 +112,11 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.0)
       sprockets-rails (~> 2.0.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.1)
+    rails_stdout_logging (0.0.1)
     railties (4.0.0)
       actionpack (= 4.0.0)
       activesupport (= 4.0.0)
@@ -168,6 +173,7 @@ DEPENDENCIES
   kaminari
   pg
   rails (= 4.0.0)
+  rails_12factor
   sass-rails (~> 4.0.0)
   turbolinks
   uglifier (>= 1.3.0)
