@@ -16,3 +16,5 @@ gem 'devise', '3.0.0'
 gem 'kaminari'
 gem 'friendly_id', github: "FriendlyId/friendly_id"
 gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
+
+gem 'rails_12factor', group: :production
