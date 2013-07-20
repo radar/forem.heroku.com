@@ -5,8 +5,16 @@ GIT
     friendly_id (5.0.0.alpha1)
 
 GIT
+  remote: git://github.com/radar/forem-bootstrap.git
+  revision: 3efec35538c33e10081f1fd243d99314f913d2d1
+  branch: master
+  specs:
+    forem-bootstrap (0.0.1)
+      bootstrap-sass (~> 2.3.2.1)
+
+GIT
   remote: git://github.com/radar/forem.git
-  revision: 63f9b450071cc455a3089e2d02f6a29313cdc877
+  revision: c1c83657f7f3e36618afcef925f9740006a8f665
   branch: rails4
   specs:
     forem (1.0.0.beta1)
@@ -164,10 +172,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 2.3.2.1)
   cancan!
   coffee-rails (~> 4.0.0)
   devise (= 3.0.0)
   forem!
+  forem-bootstrap!
   friendly_id!
   jquery-rails
   kaminari
