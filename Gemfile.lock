@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem-bootstrap.git
-  revision: 3efec35538c33e10081f1fd243d99314f913d2d1
+  revision: e9d27904ffaceb869adae6f70229396c7f5d55fe
   branch: master
   specs:
     forem-bootstrap (0.0.1)
