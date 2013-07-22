@@ -22,3 +22,4 @@ gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
 gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'pry'

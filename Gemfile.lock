@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: c1c83657f7f3e36618afcef925f9740006a8f665
+  revision: cf8b75472312d397fd012a5bfd04a3d2a80ae25c
   branch: rails4
   specs:
     forem (1.0.0.beta1)
@@ -23,6 +23,7 @@ GIT
       gemoji (= 1.1.2)
       localeapp
       rails (~> 4.0.0)
+      select2-rails (= 3.4.3)
       simple_form (~> 3.0.0.rc)
       workflow (= 0.8.0)
 
@@ -65,6 +66,7 @@ GEM
     bootstrap-sass (2.3.2.1)
       sass (~> 3.2)
     builder (3.1.4)
+    coderay (1.0.9)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -103,12 +105,17 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.1)
     mime-types (1.23)
     minitest (4.7.5)
     multi_json (1.7.7)
     orm_adapter (0.4.0)
     pg (0.15.1)
     polyglot (0.3.3)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -138,9 +145,13 @@ GEM
       railties (>= 4.0.0.beta, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
+    select2-rails (3.4.3)
+      sass-rails
+      thor (~> 0.14)
     simple_form (3.0.0.rc)
       actionpack (>= 4.0.0.rc1, < 4.1)
       activemodel (>= 4.0.0.rc1, < 4.1)
+    slop (3.4.5)
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -182,6 +193,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   pg
+  pry
   rails (= 4.0.0)
   rails_12factor
   sass-rails (~> 4.0.0)
